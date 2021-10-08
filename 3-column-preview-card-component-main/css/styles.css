@@ -1,0 +1,79 @@
+body {
+  background-color: #e6dcdc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px;
+  height: 100%;
+  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+body .grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+  width: 90%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 20px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .grid .card {
+  background-color: #E28625;
+  max-width: 280px;
+  height: 390px;
+  padding: 40px;
+  color: #fff;
+}
+
+body .grid .card h1 {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 35px;
+}
+
+body .grid .card p {
+  width: 70%;
+  font-size: 15px;
+  opacity: .6;
+  margin-bottom: 30%;
+}
+
+body .grid .card button {
+  padding: 18px 45px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #E28625;
+  border: none;
+}
+
+body .grid .suvs {
+  background-color: #08656A;
+}
+
+body .grid .suvs button {
+  color: #08656A;
+}
+
+body .grid .luxury {
+  background-color: #00403F;
+}
+
+body .grid .luxury button {
+  color: #00403F;
+}
+/*# sourceMappingURL=styles.css.map */
